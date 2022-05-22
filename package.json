@@ -1,26 +1,31 @@
 {
-  "name": "to_do_list",
-  "version": "1.0.0",
-  "description": "An app to create and monitor task",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sandip-jha/To_Do_List.git"
-  },
-  "keywords": [
-    "to-do",
-    "list"
-  ],
-  "author": "Sandeep Jha",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sandip-jha/To_Do_List/issues"
-  },
-  "homepage": "https://github.com/sandip-jha/To_Do_List#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  }
+    "name": "to_do_list",
+    "version": "1.0.0",
+    "description": "An app to create and monitor task",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandip-jha/To_Do_List.git"
+    },
+    "keywords": [
+        "to-do",
+        "list"
+    ],
+    "author": "Sandeep Jha",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sandip-jha/To_Do_List/issues"
+    },
+    "homepage": "https://github.com/sandip-jha/To_Do_List#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.1",
+        "express": "^4.18.1",
+        "mongoose": "^5.11.10"
+    }
 }
